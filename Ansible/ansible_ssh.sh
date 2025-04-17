@@ -2,7 +2,7 @@
 #----------------------------
 # Step 1: Generate SSH key
 #----------------------------
-
+INVENTORY_FILE="./inventory"
 SSH_KEY_PATH="$HOME/.ssh/id_rsa"
 read -p "Enter the remote SSH username to use in Ansible (e.g., student): " REMOTE_USER
 
